@@ -1,0 +1,126 @@
+.kamsan-container{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #F6F6F6;
+}
+.kamsan-box{
+    width: 100%;
+    /* background-color: red; */
+    height: 44px;
+    border-bottom: 3px solid #FA1939;
+}
+.kamsan-title{
+    width: 120px;
+    height: 46px;
+    background-color:#FA1939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.kamsan-title p{
+    font-weight: 300;
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transform: translateX(-15px);
+}
+.kamsan-content{
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    /* border: 1px solid #555; */
+    /* border-top: 0px; */
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.kamsan-top-news{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color:#FA1939;
+
+}
+.kamsan-image{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;  
+}
+.kamsan-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.kamsan-image img:hover{
+    transform: scale(1.1);
+}
+.kamsan-des{
+    width: 100%;
+    height: 30%;
+}
+.kamsan-des h4{
+    font-family: 'koulen';
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 30px;
+    color: white;
+}
+.kamsan-small-news{
+    width: 68%;
+    float: left;
+    height: 100%;
+    margin-left: 2%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kamsan-new-item{
+    width: 24.5%;
+    height: 50%;
+
+}
+.kamsan-new-item-image{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.kamsan-new-item-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.kamsan-new-item-image img:hover{
+    transform: scale(1.1);
+
+}
+.kamsan-new-item-des{
+    width: 100%;
+    height: 40%;
+    /* transform: translateY(10px); */ 
+}
+.kamsan-new-item-des p{
+    font-family: 'Battambang';
+    font-weight: 500;
+    font-size: 14px;
+    margin:0px 0px;
+    line-height: 25px;
+    color: #555;
+}
+.next{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    background-color: yellow;
+    transform: translate(1200px,150px);
+}

@@ -1,0 +1,235 @@
+body{
+    background-color: #F6F6F6;
+}
+.Social-container{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    /* padding: 30px; */
+    /* box-sizing: border-box; */
+    /* background-color: #FA1939; */
+    /* background-color: #F6F6F6; */
+
+}
+.Social-Left{
+    width: 68%;
+    /* height: 700px; */
+    /* background-color: #333; */
+    overflow: hidden;
+    /* box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; */
+   
+}
+.Social-Box{
+    width: 100%;
+    /* background-color: #F6F6F6; */
+    height: 44px;
+    border-bottom: 3px solid #4390F8;
+    border-right: 0px;
+
+}
+.Social-Title{
+    width: 150px;
+    height: 46px;
+    transform: translateX(-15px);
+    background-color: #4390F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Social-Title p{
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.Social-Content{
+   
+    width: 100%;
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* border: 1px solid #333 ; */
+    box-sizing: border-box;
+    border-top: 0px;
+    padding: 30px 20px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow: px 2px 2px 2px rgba(0, 0, 0, 0.2); */
+   background-color: #ffffff;
+}
+.Enetertain-Top{
+    width: 100%;
+    height: 250px;
+    /* background-color: rgb(79, 58, 237); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    /* padding: 20px 30px; */
+    box-sizing: border-box;
+    
+}
+.Social-T-Box{
+    width: 48%;
+    height: 100%;
+    /* background-color: slategray; */
+}
+.Social-Image{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+.Social-Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.Social-Image img:hover{
+    transform: scale(1.1);
+    
+}
+.Social-Desc{
+    width: 100%;
+    height: 30%;
+}
+.Social-Desc h4{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 0px;
+    line-height: 30px;
+}
+.Social-Buttom{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+.Social-R-Box{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(144, 7, 7); */
+    display: flex;
+    flex-direction: row;
+    /* padding: 20px; */
+    margin-top: 10px;
+    cursor: pointer;
+}
+.Social-R-Image{
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+.Social-R-Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.Social-R-Image img:hover{
+    transform: scale(1.1);
+    
+}
+.Social-R-Desc{
+    width: 65%;
+    height: 100%;
+    /* transform: translateY(10px); */
+    padding-left: 20px;
+}
+.Social-R-Desc p{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin:10px 0px;
+    line-height: 25px;
+} 
+.Social-R-Desc h4{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin:10px 0px;
+    line-height: 25px;
+}
+.Social-Right{
+    width: 30%;
+    margin-left: 2%;
+    height: 800px;
+    /* background-color: #3d98e9; */
+}
+
+.Social-Pop-R-Box{
+    width: 100%;
+    height: 60px;
+    /* border-bottom: 3px solid red; */
+  
+}
+.Social-Pop-R-Title{
+    width: 150px;
+    height: 50px;
+    /* transform: translateX(-15px); */
+    /* background-color: #FA1939; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.Social-Pop-R-Title p{
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.Social-Line{
+    width: 54px;
+    height: 3px;
+    background-color: #FA5480;
+    margin-bottom: 10px;
+}
+.Social-Pop-R{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.Social-Pop-R-Image{
+    width: 20%;
+    height: 50px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.Social-Pop-R-Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Social-Pop-R-Image img:hover{
+    transform: scale(1.1);
+}
+.Enetertain-Pop-R-Desc{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    padding: 0px 10px;
+}
+.Enetertain-Pop-R-Desc p{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin:0px 0px;
+    line-height: 25px;
+    font-style: Bold;
+    padding: 0px 10px;
+
+}
+.Enetertain-Pop-R-Desc hr{
+    border-color: rgba(6, 6, 6, 0.20);
+}

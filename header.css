@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container-full{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+.header-container{
+    width: 75%;
+    /* background-color: ghostwhite; */
+    height: 100%;
+    margin: auto;
+}
+.header-container img{
+    height: 70%;
+    margin-top: 20px;
+}
+.menu-full{
+    width: 100%;
+    background-color: #fa1939;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.menu-container{
+    width: 75%;
+    /* overflow: hidden; */
+    height: 50px;
+    margin: auto;
+    /* background-color: black; */
+    
+}
+.menu-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-container ul li{
+    float: left;
+}
+.menu-container ul li a{
+    display: block;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.menu-container ul li a:hover{
+    opacity: 1;
+}
+i{
+    font-size: 17px;
+}
+
+/* .............Footer Section ...................... */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 25px;
+}
+.footer-container{
+    width: 75%;
+    height: 100%;
+    /* background-color: green; */
+    margin: auto;
+}
+.footer1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.footer1:nth-child(2){
+    width: 40%;
+    /* background-color: antiquewhite; */
+}
+.footer1:first-child img{
+    height: 70px;
+    margin-top: 30px;
+    
+}
+.footer1:first-child p,small{
+    font-family: 'Battambang', cursive;
+    color: white;
+    opacity: 0.7;
+    font-size: 18px;
+}
+.footer1:first-child small{
+    font-size: 14px;
+}
+.footer1:nth-child(2) h3{
+    font-family: 'koulen', cursive;
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.footer1:nth-child(2) p{
+    font-family: 'Battambang', cursive;
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}   
+.footer1:nth-child(2) img{
+    height: 30px;
+    margin-right: 5px;
+}
+.footer1:last-child h3{
+    font-family: "koulen", cursive;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    opacity: 0.7;
+}
+.footer1:last-child .fa-brands{
+    font-size: 30px;
+    margin-right: 5px;
+    color: white;
+    opacity: 0.7;
+}
+.footer1:last-child .fa-brands:hover{
+    opacity: 1;
+}
+.footer1:nth-child(3) p{
+    font-family: 'Battambang', cursive;
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}   

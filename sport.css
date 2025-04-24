@@ -1,0 +1,130 @@
+body{
+    background-color: #F6F6F6;
+}
+.Sport-container{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+}
+.Sport-box{
+    width: 100%;
+    /* background-color: red; */
+    height: 44px;
+    border-bottom: 3px solid #F9A62B;
+}
+.Sport-title{
+    width: 120px;
+    height: 46px;
+    background-color:#F9A62B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Sport-title p{
+    font-weight: 300;
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transform: translateX(-15px);
+}
+.Sport-content{
+    width: 100%;
+    height: 450px;
+    /* background-color: grey; */
+    padding: 20px 30px;
+    box-sizing: border-box;
+    /* border: 1px solid #555; */
+    border-top: 0px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.Sport-top-news{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color:#F9A62B;
+
+}
+.Sport-image{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;  
+}
+.Sport-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.Sport-image img:hover{
+    transform: scale(1.1);
+}
+.Sport-des{
+    width: 100%;
+    height: 30%;
+}
+.Sport-des h4{
+    font-family: 'koulen';
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 30px;
+    color: white;
+    padding: 2px;
+}
+.Sport-small-news{
+    width: 68%;
+    float: left;
+    height: 100%;
+    margin-left: 2%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Sport-new-item{
+    width: 24.5%;
+    height: 50%;
+
+}
+.Sport-new-item-image{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.Sport-new-item-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.Sport-new-item-image img:hover{
+    transform: scale(1.1);
+
+}
+.Sport-new-item-des{
+    width: 100%;
+    height: 40%;
+    /* transform: translateY(10px); */ 
+}
+.Sport-new-item-des p{
+    font-family: 'Battambang';
+    font-weight: 500;
+    font-size: 14px;
+    margin:0px 0px;
+    line-height: 25px;
+    color: #555;
+}
+.next{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    /* background-color: yellow; */
+    transform: translate(1200px,150px);
+}
