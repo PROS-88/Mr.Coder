@@ -49,11 +49,11 @@ body{
 }
 .content:nth-child(2){
     width: 40%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     background-image: url('img/Techno-01.jpg');
 }
 .content:nth-child(3){
-    background-color: rgb(231, 177, 15);
+    /* background-color: rgb(231, 177, 15); */
     background-image: url('img/Social-01.jpg');
 }
 .content:nth-child(4){
