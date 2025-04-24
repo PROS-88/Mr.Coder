@@ -43,18 +43,18 @@ body{
     /* background-color: violet; */
     float: left;
     
-    background-image:url('/Sabay1/img/sport-1.jpg');
+    background-image:url('img/sport-1.jpg');
     background-size: cover;
     background-position: center;
 }
 .content:nth-child(2){
     width: 40%;
     background-color: lightgreen;
-    background-image: url('/Sabay1/img/Techno-01.jpg');
+    background-image: url('img/Techno-01.jpg');
 }
 .content:nth-child(3){
     background-color: rgb(231, 177, 15);
-    background-image: url('/Sabay1/img/Social-01.jpg');
+    background-image: url('img/Social-01.jpg');
 }
 .content:nth-child(4){
     width: 40%;
